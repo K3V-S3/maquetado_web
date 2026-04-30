@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- La etiqueta table se usa para definir tablas en HTML. Todo el contenido de la tabla, incluyendo filas y celdas, se define dentro de estas etiquetas. -->
+
+    <!-- La etiqueta tr se usa para definir filas en una tabla. Cada fila puede contener una o más celdas, que se definen utilizando las etiquetas td (para celdas de datos) y th (para celdas de encabezado) -->
+    <!-- La etiqueta td define una celda de datos dentro de una fila. Cada etiqueta td representa una columna en la tabla. -->
+    <!-- La etiqueta th define una celda de encabezado dentro de una fila. Cada etiqueta th representa una columna en la tabla. -->
+
+    <table border="1"> <!-- El atributo border se usa para agregar un borde a la tabla. El valor "1" indica que el borde debe ser visible. -->
+        <tr> <!-- Primera fila de la tabla -->
+            <th>Encabezado 1</th> <!-- Celda de encabezado para la columna -->
+            <th>Encabezado 2</th> <!-- Celda de encabezado para la columna -->
+            <th>Encabezado 3</th> <!-- Celda de encabezado para la columna -->
+        </tr>
+        <tr> <!-- Segunda fila de la tabla -->
+            <td>Dato 1</td> <!-- Celda de datos -->
+            <td>Dato 2</td> <!-- Celda de datos -->
+            <td>Dato 3</td> <!-- Celda de datos -->
+        </tr>
+        <tr> <!-- Tercera fila de la tabla -->
+            <td>Dato 4</td> <!-- Celda de datos -->
+            <td>Dato 5</td> <!-- Celda de datos -->
+            <td>Dato 6</td> <!-- Celda de datos -->
+        </tr>
+    <table border="1"> <!-- El atributo border se usa para agregar un borde a la tabla. El valor "1" indica que el borde debe ser visible. -->
+        <tr> <!-- Primera fila de la tabla -->
+            <th>País</th> <!-- Celda de encabezado para la columna -->
+            <th>Capital</th> <!-- Celda de encabezado para la columna -->
+        </tr>
+        <tr> <!-- Segunda fila de la tabla -->
+            <td>España</td> <!-- Celda de datos -->
+            <td>Madrid</td> <!-- Celda de datos -->
+        </tr>
+        <tr> <!-- Tercera fila de la tabla -->
+            <td>Francia</td> <!-- Celda de datos -->
+            <td>París</td> <!-- Celda de datos -->
+        </tr>
+        <tr> <!-- Tercera fila de la tabla -->
+            <td>Italia</td> <!-- Celda de datos -->
+            <td>Roma</td> <!-- Celda de datos -->
+        </tr>
+    <table border="1">  <!--Tabla con celdas combinadas-->
+        <tr>
+            <th colspan="4">Mundial de Fútbol</th> <!-- Celda de encabezado que abarca 2 columnas -->
+        </tr>
+        <tr>
+            <td rowspan="3">Paises con la mayoría de goles</td>  <!--Celda de datos que abarca dos filas-->
+            <td>Brasil 2</td> <td>230</td>
+        </tr>
+        <tr>
+            <td>Alemania</td> <td>180</td>
+        </tr>
+        <tr>
+            <td>Argentina</td> <td>150</td>
+        </tr>
+    </table>
+</body>
+</html>
